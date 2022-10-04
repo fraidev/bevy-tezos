@@ -1,0 +1,17 @@
+[package]
+name = "bevy-tezos"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.11.3"
+bevy-tokio-tasks = "0.11.0"
+futures-lite = "2.0.1"
+rand = "0.8.5"
+tezos-rpc = { git = "https://github.com/airgap-it/tezos-rust-sdk" }
+tezos-core = { git = "https://github.com/airgap-it/tezos-rust-sdk" }
+tezos-michelson = { git = "https://github.com/airgap-it/tezos-rust-sdk" }
+tokio = "1.33.0"
